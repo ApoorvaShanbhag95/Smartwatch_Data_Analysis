@@ -44,5 +44,7 @@ An exploratory analysis of fitness/activity data collected from Fitbit smartwatc
 ## 📂 Repository Structure
 
 ├── Smartwatch Data Analysis.ipynb # Notebook with code, visualizations, and findings
+
 ├── dailyActivity_merged.csv (or link/reference) # Original data source
+
 └── README.md # Project overview, findings, usage
