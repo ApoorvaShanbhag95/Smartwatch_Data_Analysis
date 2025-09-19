@@ -1,20 +1,48 @@
-# Smartwatch_Data_Analysis
+# Smartwatch Data Analysis
 
-Project Introduction
+An exploratory analysis of fitness/activity data collected from Fitbit smartwatches. The aim is to understand daily activity patterns, energetic output (like calories burned), and periods of higher/lower activity, using real-world data.
 
-Smartwatches are preferred by people who like to take care of their fitness. Analyzing the data collected on your fitness is one of the use cases of Data Science in healthcare.
-Below is the analysis of data collected on a Smartwatch.
+---
 
-Dataset Description
+## 📋 Objectives
 
-The dataset I am using for Smartwatch data analysis is publicly available on Kaggle. This dataset was initially collected from 30 female users of the Fitbit smartwatch. You can download the dataset from here.
+- Explore daily activity levels: steps, active minutes, calories burned.  
+- Identify which days of the week tend to be most/least active.  
+- Understand user behavior: how consistent or varied are activity levels across days.  
+- Visualize and summarize the data to spot patterns, peaks, troughs.  
+- Draw actionable insights: e.g. when interventions (fitness nudges, rest days) might be helpful.
 
-https://raw.githubusercontent.com/amankharwal/Website-data/master/dailyActivity_merged.csv
+---
 
-EDA
+## 🧰 Dataset & Tools
 
-Below are the observations which we have made from the data visualization done as part of the Data Understanding process.
+- **Dataset**: Fitbit activity data for 30 female users.  
+  Source: `dailyActivity_merged.csv` (Kaggle) :contentReference[oaicite:6]{index=6}  
+- **Tools**:  
+  - Jupyter Notebook for analysis & visualization (`.ipynb`)  
+  - Python data libraries (likely Pandas, Matplotlib/Seaborn or similar)  
 
-Tuesday is one of the most active days for all individuals in the dataset, as the highest number of calories were burned on Tuesdays.
+---
 
-Thursday is the most inactive day according to the lifestyle of all the individuals in the dataset.
+## 🔍 Key Insights / Sample Findings
+
+- **Tuesday** is among the most active days: users tend to burn the most calories on Tuesdays. :contentReference[oaicite:7]{index=7}  
+- **Thursday** is among the least active days. :contentReference[oaicite:8]{index=8}  
+- Additional findings might include patterns in steps, active minutes, or how activity correlates with other variables (if included in the dataset).
+
+---
+
+## 🚀 Value / Possible Applications
+
+- Helps users or health apps understand which days people are more or less active; useful for scheduling workouts, rest days, etc.  
+- Could inform personalized reminders or nudges (e.g. suggest more activity on less active days).  
+- Useful for health researchers looking into daily activity rhythms.  
+- Basis for further modelling: predictions (e.g. expected activity on given day), anomaly detection, trend changes, etc.
+
+---
+
+## 📂 Repository Structure
+
+├── Smartwatch Data Analysis.ipynb # Notebook with code, visualizations, and findings
+├── dailyActivity_merged.csv (or link/reference) # Original data source
+└── README.md # Project overview, findings, usage
